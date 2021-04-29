@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link href='https://fonts.googleapis.com/css?family=Irish Grover' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </head>
+    <body>
+    <script>
+        window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play() { document.getElementById("a").play();
+}
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main{
+    height:100vh;
+    width:100vw;
+    background-color:lime;
+    position:relative;
+    display:grid;
+    place-items:center;
+    background-image:url("https://cdn.pixabay.com/photo/2016/05/28/00/06/gift-1420830__480.jpg");
+    background-size:100% 100%;
+}
+
+.top{
+    position:absolute;
+    top:3vh;
+    left:50%;
+    transform:translateX(-50%);
+    width:90vw;
+    height:10vh;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    place-items:center;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    margin-top:0;
+    padding-top:-10px;
+    color:white;
+}
+/*.box{
+    height:90%;
+    width:90%;
+    background-color:transparent;
+}
+*/
+.text, .cover span{
+    color:white;
+    text-shadow:0 0 2vmin #222;
+    font-family: 'Fredoka One', cursive;
+    font-size:2rem;
+    overflow:;
+}
+.text span{
+    font-family: 'Dela Gothic One', cursive;
+    font-size:3rem;
+    color: #21A0A4;
+    animation: to 1s 2s linear both;
+    transform-origin:left;
+    transform:rotate(5deg) translateY(-10%);
+}
+ @keyframes to{
+     0%{
+         transform:rotate(15deg) translateY(-10%) translateX(-20%);
+     }
+ }
+
+
+.top{
+    background: rgba( 30, 33, 39, 0.90 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 9.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow:0 0 2vmin 2vmin #2225;l
+}
+
+.wishbg{
+    height:75%;
+    width:90%;
+    position:absolute;
+    top:17vh;
+    left:50%;
+    transform:translateX(-50%);
+    background-color: #1E2127;
+    background-image:url("https://api.sololearn.com/Uploads/Avatars/12336223.jpg");
+    background-size:100% 100%;
+}
+
+.cover{
+    height:100%;
+    width:100%;
+    background: rgba( 30, 33, 39, 0.87);
+    box-shadow:0 0 1vmin 1vmin #eee1;
+    color:white;
+    padding:2vmin;
+    font-weight:500;
+    overflow:scroll;
+    font-family: 'Irish Grover';
+    text-align:center;
+    justify-content:center;
+    flex-direction:column;
+    color: #21A0A4;
+}
+
+.cover span{
+    font-size:1.3rem;
+}
+
+
+.top, .wishbg{
+    animation:anim 3s 3s linear both;
+}
+
+
+@keyframes anim{
+    0%{
+        opacity:0;
+        filter:grayscale(100);
+    }
+}
+
+p{
+    color: #fff;
+}
+
+
+    </style>
+    <audio controls style=" display:none;" loop   id="a"  >
+ <source id="audio" src="https://dl.dropbox.com/s/6uokrib7df8ho37/bdday%20song.MP3?row=0">
+    <script>
+     Swal.fire('Happy birthday Good Bits Bhaiya🎊\n A small try🧗‍♀️ to express my gratitude🤗 \n It is quite simple😕 and boring😥 as I am a beginner😔 ')
+        </script>  
+      </audio> 
+        <div class="main">
+            <div class="box">
+                <div class="top text">
+                    <span>H</span>appy &nbsp <span>B</span>irthday
+                </div>
+                <div class="wishbg">
+                    <div class="cover">
+<p>Bhaiya though i met you just few days back but yet i truly appreciate your kidness and your support that you have shown to me, It means me a lot. The aura of poaitivity and all those funny jokes that you crack are one of the things that makes me a fan of you. I still remember all those supportive words that you shared with me at the time when i was sad and they truly have stirred me in a positive way. To be honest its my greatest fortune to get the golden opportunity to meet you. Thankkkkkkkkk youuuuuuuuu soooooooooooo much bhaiya for coming in my life.<br><br>
+
+</p>                    
+                       Another year has passed,<br>
+Your birthday is here,<br>
+May this year bring joy,<br>
+Twelve months you hold dear.<br>
+
+Follow your true bliss,<br>
+Achieve all you can,<br>
+Dream the good dream,<br>
+Create a new plan.<br>
+My fondest wishes are for you,<br>
+Since today's your special day,<br>
+May every dream you chase,<br>
+Come true and never stray.<br><br>
+
+
+<p>
+Happy birthday Good_Bits bhaiaya 🎊🎉
+May all your wishes comes true and you have a never ending smile on your face forever 😊😊
+
+Wishing you a year ahead filled with happiness,  joy , prosperity and success. And yeah! Lots of maggi chocolate and ice cream too😄😄😄 </p><br>
+<span>🎊🎉 Happy Birthday 🎊🎉</span>
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var audio= document.getElementById("a");
+audio.currentTime =12;
+function play(){
+    audio.play()
+}
+window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+        </script>
+    </body>
+</html>
